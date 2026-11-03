@@ -1,4 +1,4 @@
-# Kid on Robinhood — website
+# Candle Kid — website
 
 Static frontend: HTML + CSS + vanilla JS. No build step.
 
@@ -8,7 +8,7 @@ Double-click `index.html`, or run a local server from this folder:
     npx serve .
 
 ## After launch — edit only `config.js`
-- `ticker` — your ticker, e.g. `$KID`
+- `ticker` — your ticker, e.g. `$CKID`
 - `contractAddress` — the token CA (`0x...`). The "Copy" button and the Blockscout link start working automatically.
 - `links.buy` — token page on Pools
 - `links.chart` — GMGN / DexScreener chart
@@ -24,4 +24,4 @@ Drag the whole folder into Netlify Drop (app.netlify.com/drop), or push to GitHu
 - `style.css` — design
 - `script.js` — copy button, links, animations
 - `config.js` — your settings
-- `assets/favicon.svg` — tab icon
+- `favicon.svg` — tab icon
