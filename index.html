@@ -5,214 +5,190 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Candle Kid ($CKID)</title>
   <meta name="description" content="Candle Kid ($CKID) — just a kid riding green candles. Fair launch, LP locked forever, no dev tax.">
-  <meta name="theme-color" content="#0B0B0C">
+  <meta name="theme-color" content="#08090A">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
 
-  <header class="nav" id="top">
-    <div class="wrap nav__inner">
+  <header class="nav">
+    <div class="wrap nav__in">
       <a class="logo" href="#top" aria-label="Candle Kid — home">
-        <span class="logo__mark" aria-hidden="true">C</span>
-        <span class="logo__text">CANDLE<span class="logo__on">·</span>KID</span>
+        <svg class="logo__icon" aria-hidden="true" viewBox="0 0 32 32"><line x1="16" y1="2" x2="16" y2="30"/><rect x="10" y="8" width="12" height="16" rx="2"/></svg>
+        <span>CANDLE KID</span>
       </a>
       <nav class="nav__links" aria-label="Main">
-        <a href="#about">About</a>
-        <a href="#tokenomics">Tokenomics</a>
-        <a href="#verify">Verify</a>
+        <a href="#story">Story</a>
+        <a href="#numbers">Numbers</a>
         <a href="#faq">FAQ</a>
       </nav>
-      <a class="btn btn--small" data-link="x" href="#" target="_blank" rel="noopener">Follow on X</a>
+      <a class="btn btn--sm" href="https://x.com/1KidonSolana1" target="_blank" rel="noopener">
+        <svg aria-hidden="true" viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M17.75 3h3.07l-6.7 7.66L22 21h-6.17l-4.83-6.32L5.47 21H2.4l7.17-8.2L2 3h6.32l4.37 5.78L17.75 3Zm-1.08 16.17h1.7L7.4 4.74H5.58l11.09 14.43Z"/></svg>
+        Follow
+      </a>
     </div>
   </header>
 
   <main id="main">
     <!-- HERO -->
-    <section class="hero">
-      <svg class="hero__chart" aria-hidden="true" viewBox="0 0 1500 600" preserveAspectRatio="none">
-        <path class="hero__line" d="M0 540 L180 480 L300 515 L470 380 L600 430 L780 280 L900 330 L1090 180 L1220 220 L1500 40" />
-      </svg>
-      <div class="wrap hero__inner">
-        <p class="eyebrow"><span class="dot" aria-hidden="true"></span> $CKID · Robinhood Chain</p>
-        <h1 class="hero__title">
-          <span class="hero__rh">CANDLE</span>
-          <span class="hero__kid">KID</span>
-        </h1>
-        <p class="hero__sub">Just a kid riding green candles. No presale, no VC, no dev tax, no promises — just memes.</p>
-
-        <div class="ca" role="group" aria-label="Contract address">
-          <span class="ca__label">CA</span>
-          <code class="ca__value" id="ca-value">Coming soon</code>
-          <button class="ca__copy" type="button" id="ca-copy" aria-label="Copy contract address">
-            <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h9"/></svg>
-            <span class="ca__copy-text">Copy</span>
-          </button>
+    <section class="hero" id="top">
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="wrap hero__in">
+        <div class="hero__text">
+          <p class="tag"><span class="tag__dot" aria-hidden="true"></span>$CKID · Robinhood Chain</p>
+          <h1 class="hero__title">
+            <span class="hero__l1">CANDLE</span>
+            <span class="hero__l2">KID</span>
+          </h1>
+          <p class="hero__sub">Just a kid riding green candles. No presale, no VC, no dev tax, no promises — just memes.</p>
+          <div class="hero__cta">
+            <a class="btn" href="https://x.com/1KidonSolana1" target="_blank" rel="noopener">
+              <svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M17.75 3h3.07l-6.7 7.66L22 21h-6.17l-4.83-6.32L5.47 21H2.4l7.17-8.2L2 3h6.32l4.37 5.78L17.75 3Zm-1.08 16.17h1.7L7.4 4.74H5.58l11.09 14.43Z"/></svg>
+              Follow on X
+            </a>
+            <a class="btn btn--ghost" href="#story">Meet the kid</a>
+          </div>
         </div>
 
-        <div class="hero__cta">
-          <a class="btn" data-link="x" href="#" target="_blank" rel="noopener">Follow on X</a>
-          <a class="btn btn--ghost" data-link="youtube" href="#" target="_blank" rel="noopener">YouTube</a>
+        <div class="hero__art" aria-hidden="true">
+          <svg viewBox="0 0 420 460" class="scene">
+            <g class="bg-candles">
+              <g class="c c1"><line x1="40" y1="300" x2="40" y2="420"/><rect x="26" y="320" width="28" height="80" rx="4"/></g>
+              <g class="c c2 red"><line x1="95" y1="280" x2="95" y2="400"/><rect x="81" y="300" width="28" height="70" rx="4"/></g>
+              <g class="c c3"><line x1="150" y1="230" x2="150" y2="380"/><rect x="136" y="250" width="28" height="100" rx="4"/></g>
+              <g class="c c4 red"><line x1="350" y1="260" x2="350" y2="380"/><rect x="336" y="280" width="28" height="70" rx="4"/></g>
+              <g class="c c5"><line x1="398" y1="200" x2="398" y2="360"/><rect x="384" y="220" width="28" height="110" rx="4"/></g>
+            </g>
+            <g class="rider">
+              <line class="wick" x1="250" y1="40" x2="250" y2="450"/>
+              <rect class="body" x="214" y="150" width="72" height="280" rx="10"/>
+              <circle cx="250" cy="96" r="50" fill="#FFD9B8"/>
+              <path d="M196 92 C196 30 304 30 304 92 Z" fill="#111114"/>
+              <path d="M294 86 L346 94 C354 96 352 106 344 106 L290 100 Z" fill="#111114"/>
+              <rect class="cap-dot" x="238" y="44" width="24" height="9" rx="4.5"/>
+              <circle cx="231" cy="104" r="6.5" fill="#111114"/>
+              <circle cx="269" cy="104" r="6.5" fill="#111114"/>
+              <path d="M228 124 Q250 142 272 124" fill="none" stroke="#111114" stroke-width="6.5" stroke-linecap="round"/>
+              <path d="M214 200 L172 170" stroke="#FFD9B8" stroke-width="14" stroke-linecap="round"/>
+              <path d="M286 200 L330 164" stroke="#FFD9B8" stroke-width="14" stroke-linecap="round"/>
+            </g>
+          </svg>
         </div>
       </div>
     </section>
 
-    <!-- TICKER TAPE -->
-    <div class="tape" aria-hidden="true">
-      <div class="tape__track">
-        <span>GREEN CANDLES</span><span>★</span><span>LP LOCKED FOREVER</span><span>★</span><span>NO DEV TAX</span><span>★</span><span>NO PRESALE</span><span>★</span><span>$CKID</span><span>★</span><span>JUST MEMES</span><span>★</span>
-        <span>GREEN CANDLES</span><span>★</span><span>LP LOCKED FOREVER</span><span>★</span><span>NO DEV TAX</span><span>★</span><span>NO PRESALE</span><span>★</span><span>$CKID</span><span>★</span><span>JUST MEMES</span><span>★</span>
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>RIDE THE GREEN CANDLE</span><i>🕯</i><span>LP LOCKED FOREVER</span><i>🕯</i><span>NO DEV TAX</span><i>🕯</i><span>NO PRESALE</span><i>🕯</i><span>$CKID</span><i>🕯</i>
+        <span>RIDE THE GREEN CANDLE</span><i>🕯</i><span>LP LOCKED FOREVER</span><i>🕯</i><span>NO DEV TAX</span><i>🕯</i><span>NO PRESALE</span><i>🕯</i><span>$CKID</span><i>🕯</i>
       </div>
     </div>
 
-    <!-- ABOUT -->
-    <section class="section" id="about">
-      <div class="wrap about">
-        <div class="about__badge reveal" aria-hidden="true">
-          <div class="badge">
-            <svg class="badge__ring" viewBox="0 0 200 200"><circle cx="100" cy="100" r="92" /></svg>
-            <span class="badge__rh">CANDLE</span>
-            <span class="badge__on">— $CKID —</span>
-            <span class="badge__kid">KID</span>
-          </div>
-        </div>
-        <div class="about__text reveal">
-          <p class="kicker">01 / The story</p>
-          <h2>The kid rides the candle.</h2>
-          <p>Every chart has red days. Candle Kid doesn't care — he just climbs back on the next green candle and holds on tight.</p>
-          <p>No promises, no roadmap to the moon, no hidden team bag. A fair launch, liquidity locked forever, and a community that posts memes louder than anyone else on the chain.</p>
+    <!-- STORY -->
+    <section class="section" id="story">
+      <div class="wrap story">
+        <p class="kicker reveal">01 — The story</p>
+        <h2 class="story__big reveal">Every chart has red days.<br><em>The kid doesn't care.</em></h2>
+        <div class="story__cols">
+          <p class="reveal">He climbs back on the next green candle and holds on tight. No charts to read, no signals to sell — just vibes and a very tall candle.</p>
+          <p class="reveal">No roadmap to the moon, no hidden team bag. A fair launch, liquidity locked forever, and a community that posts memes louder than anyone else on the chain.</p>
         </div>
       </div>
     </section>
 
-    <!-- TOKENOMICS -->
-    <section class="section section--alt" id="tokenomics">
+    <!-- NUMBERS -->
+    <section class="section section--alt" id="numbers">
       <div class="wrap">
-        <p class="kicker reveal">02 / Tokenomics</p>
+        <p class="kicker reveal">02 — Numbers</p>
         <h2 class="reveal">Simple. Fixed. Locked.</h2>
-        <dl class="rows">
-          <div class="row reveal">
-            <dt>Total supply</dt>
-            <dd class="row__value">1,000,000,000</dd>
-            <dd class="row__note">Fixed forever. No mint function, no owner keys.</dd>
+        <div class="nums">
+          <div class="num reveal">
+            <p class="num__v">1B</p>
+            <p class="num__l">Total supply</p>
+            <p class="num__n">Fixed forever. No mint function.</p>
           </div>
-          <div class="row reveal">
-            <dt>Dev tax</dt>
-            <dd class="row__value">NONE</dd>
-            <dd class="row__note">No dev tax on top. Trades pay only the standard Pools pool fee.</dd>
+          <div class="num reveal">
+            <p class="num__v">∞</p>
+            <p class="num__l">LP lock</p>
+            <p class="num__n">Liquidity locked forever in a Uniswap v4 pool by Pools.</p>
           </div>
-          <div class="row reveal">
-            <dt>Liquidity</dt>
-            <dd class="row__value">LOCKED</dd>
-            <dd class="row__note">Permanently locked in a Uniswap v4 pool by Pools. Nobody can pull it — including us.</dd>
+          <div class="num reveal">
+            <p class="num__v">0</p>
+            <p class="num__l">Dev tax</p>
+            <p class="num__n">Trades pay only the standard pool fee.</p>
           </div>
-          <div class="row reveal">
-            <dt>Launch</dt>
-            <dd class="row__value">FAIR</dd>
-            <dd class="row__note">No presale, no VC, no hidden team allocation. Everyone buys from the same pool.</dd>
+          <div class="num reveal">
+            <p class="num__v">0</p>
+            <p class="num__l">Presale</p>
+            <p class="num__n">No VC, no presale. Everyone buys from the same pool.</p>
           </div>
-        </dl>
-      </div>
-    </section>
-
-    <!-- TRANSPARENCY -->
-    <section class="section" id="verify">
-      <div class="wrap verify">
-        <div class="verify__head">
-          <p class="kicker reveal">03 / Don't trust. Verify.</p>
-          <h2 class="reveal">Everything is on-chain.</h2>
-          <p class="verify__lead reveal">Serious projects don't ask you to believe them — they let you check. Every claim on this page can be verified on-chain in a minute.</p>
         </div>
-        <ul class="checks">
-          <li class="check reveal">
-            <span class="check__icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span>
-            <div>
-              <h3>Liquidity locked forever</h3>
-              <p>LP sits in a permanently locked Uniswap v4 pool created by Pools.</p>
-            </div>
-          </li>
-          <li class="check reveal">
-            <span class="check__icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span>
-            <div>
-              <h3>Supply can't grow</h3>
-              <p>1 billion tokens minted once. There is no function to create more.</p>
-            </div>
-          </li>
-          <li class="check reveal">
-            <span class="check__icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span>
-            <div>
-              <h3>Dev wallets are public</h3>
-              <p>Every wallet the dev launches or buys with is listed right here. Nothing hidden.</p>
-              <p class="wallet"><span class="wallet__label">Dev wallet</span> <a class="wallet__value" id="dev-wallet" href="#">Disclosed at launch</a></p>
-            </div>
-          </li>
-          <li class="check reveal">
-            <span class="check__icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span>
-            <div>
-              <h3>One official source</h3>
-              <p>The CA is posted only here and on <a data-link="x" href="#">our X</a>. DMs offering "early access" are scams.</p>
-            </div>
-          </li>
-        </ul>
       </div>
     </section>
 
     <!-- FAQ -->
-    <section class="section section--alt" id="faq">
+    <section class="section" id="faq">
       <div class="wrap faq">
-        <p class="kicker reveal">04 / FAQ</p>
+        <p class="kicker reveal">03 — FAQ</p>
         <h2 class="reveal">Questions.</h2>
         <details class="reveal">
-          <summary>Is this connected to any company?</summary>
-          <p>No. Candle Kid is an independent community memecoin that lives on Robinhood Chain. It is not affiliated with, endorsed by, or connected to any company, including Robinhood Markets, Inc.</p>
+          <summary>Where do I find the real contract address?</summary>
+          <p>Only on our official X account. Anyone sending you a CA in DMs is not us. Fakes with a tax already exist — always check the CA.</p>
         </details>
         <details class="reveal">
           <summary>Can the liquidity be pulled?</summary>
-          <p>No. The token launched on Pools, which moves liquidity into a permanently locked Uniswap v4 pool. You can verify this on-chain.</p>
+          <p>No. The token launches on Pools, which locks liquidity forever in a Uniswap v4 pool. You can verify it on-chain.</p>
         </details>
         <details class="reveal">
-          <summary>Where do I find the real contract address?</summary>
-          <p>Only on this site and on our official X account. Anyone sending you a CA in DMs is not us.</p>
-        </details>
-        <details class="reveal">
-          <summary>Does the dev hold tokens?</summary>
-          <p>Yes, a small bag bought at launch from the same pool as everyone else. Every dev wallet is listed in the Verify section, and you can track it on Blockscout at any time.</p>
+          <summary>Is this connected to any company?</summary>
+          <p>No. Candle Kid is an independent community memecoin on Robinhood Chain, not affiliated with any company.</p>
         </details>
         <details class="reveal">
           <summary>Does the token have any value or utility?</summary>
-          <p>No. It's a memecoin for fun and community. There is no promise of profit, no roadmap and no intrinsic value.</p>
+          <p>No. It's a memecoin for fun and community. No promise of profit, no roadmap, no intrinsic value.</p>
         </details>
       </div>
     </section>
 
     <!-- JOIN -->
     <section class="join">
-      <div class="wrap join__inner reveal">
-        <h2>Ride with the kid.</h2>
-        <p>Memes, launches and green candles — on X and YouTube.</p>
-        <div class="hero__cta">
-          <a class="btn" data-link="x" href="#" target="_blank" rel="noopener">Follow on X</a>
-          <a class="btn btn--ghost" data-link="youtube" href="#" target="_blank" rel="noopener">YouTube</a>
-        </div>
+      <div class="wrap join__in reveal">
+        <h2>Ride with<br>the kid.</h2>
+        <a class="btn btn--lg" href="https://x.com/1KidonSolana1" target="_blank" rel="noopener">
+          <svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M17.75 3h3.07l-6.7 7.66L22 21h-6.17l-4.83-6.32L5.47 21H2.4l7.17-8.2L2 3h6.32l4.37 5.78L17.75 3Zm-1.08 16.17h1.7L7.4 4.74H5.58l11.09 14.43Z"/></svg>
+          Follow on X
+        </a>
       </div>
     </section>
   </main>
 
   <footer class="footer">
-    <div class="wrap">
-      <p class="footer__logo">CANDLE<span>·</span>KID</p>
-      <p class="footer__legal"><span data-ticker></span> is a memecoin with no intrinsic value or expectation of financial return. Not affiliated with Robinhood Markets, Inc. or any other company. Crypto is volatile — never invest more than you can afford to lose. Nothing on this site is financial advice.</p>
+    <div class="wrap footer__in">
+      <p class="footer__logo">CANDLE KID</p>
+      <p class="footer__legal">$CKID is a memecoin with no intrinsic value or expectation of financial return. Not affiliated with any company. Crypto is volatile — never invest more than you can afford to lose. Nothing here is financial advice.</p>
       <p class="footer__copy">© <span id="year"></span> Candle Kid</p>
     </div>
   </footer>
 
-  <div class="toast" id="toast" role="status" aria-live="polite"></div>
-
-  <script src="config.js"></script>
-  <script src="script.js"></script>
+  <script>
+    (function () {
+      document.getElementById("year").textContent = new Date().getFullYear();
+      var nav = document.querySelector(".nav");
+      var onScroll = function () { nav.classList.toggle("is-scrolled", window.scrollY > 10); };
+      window.addEventListener("scroll", onScroll, { passive: true }); onScroll();
+      var items = document.querySelectorAll(".reveal");
+      if ("IntersectionObserver" in window) {
+        var io = new IntersectionObserver(function (es) {
+          es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add("is-in"); io.unobserve(e.target); } });
+        }, { threshold: 0.12 });
+        items.forEach(function (el) { io.observe(el); });
+      } else { items.forEach(function (el) { el.classList.add("is-in"); }); }
+    })();
+  </script>
 </body>
 </html>
